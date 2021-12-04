@@ -1,0 +1,27 @@
+
+<div id="wrap">
+
+  <div class="products">
+
+ <div >
+    <div class="item">
+      <div class="item-image"><a href="#"><img [src]="obtenirImage(film.backdrop_path)" alt="" /></a></div>
+      <div class="item-info">
+        <div class="item-name"><a href="#"><h3> {{film.title}} </h3></a></div>
+       
+        <div class="clear">Date: {{film.release_date}}</div>
+        <div class="item-description"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aperiam sit commodi voluptates cumque et consectetur sapiente in architecto tenetur labore dignissimos animi! Accusamus.</p></div>
+        <a [routerLink]="['/details',film.id]"
+            (click)="afficherFilm(film)"  style="background-color: #7009e5; color: ghostwhite;">
+            Afficher les details
+          </a>
+      
+      </div>
+    </div>
+    </div>
+            <div class="clear"></div>
+    
+  </div>
+</div>
+
+

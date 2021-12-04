@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+ .shwoDetailsBtn {
+	 position: absolute;
+	 bottom: 20px;
+}
+ .card {
+	 text-align: center;
+}
+ .IdExist {
+	/*Netflix Color*/
+	 background-color: #7009e5 !important;
+}
+ body {
+	 font-family: 'Lato', sans-serif;
+	 font-weight: 300;
+	 margin: 30px;
+}
+ #wrap {
+	 width: 960px;
+	 margin: 20px auto;
+	 background: #fff;
+	 min-height: 200px;
+	 padding: 20px;
+	 box-sizing: border-box;
+}
+ .products .item {
+	 width: 49%;
+	 box-sizing: border-box;
+	 margin-right: 15px;
+	 float: left;
+	 margin-bottom: 25px;
+}
+ .products .item .item-image {
+	 border: 1px solid #d7d7d7;
+	 margin-bottom: 15px;
+	 overflow: hidden;
+	 height: 210px;
+	 background: url('http://beta.carproduct.cz/wp-content/uploads/2013/10/link.png') no-repeat center 175px;
+}
+ .products .item.sec {
+	 margin-right: 0px;
+}
+ .item-info {
+	 padding: 10px;
+}
+ .item-image img {
+	 width: 430px;
+	 display: block;
+	 margin: 0 auto;
+	 -webkit-transition: all 200ms ease-in-out;
+	 -moz-transition: all 200ms ease-in-out;
+	 -ms-transition: all 200ms ease-in-out;
+	 -o-transition: all 200ms ease-in-out;
+	 transition: all 200ms ease-in-out;
+}
+ .item-image img:hover {
+	 position: relative;
+	 margin-top: -35px;
+}
+ .item-name {
+	 float: left;
+}
+ .item-name a {
+	 text-decoration: none;
+}
+ .item-name h3 {
+	 font-size: 20px;
+	 line-height: 26px;
+	 font-weight: 300;
+	 color: #d35400;
+}
+ .item-price {
+	 float: right;
+	 margin-top: 6px;
+}
+ .item-description {
+	 margin-top: 10px;
+}
+ .item-description p {
+	 color: #333;
+	 font-weight: 300;
+	 line-height: 20px;
+	 font-size: 14px;
+}
+ .clear {
+	 clear: both;
+}
+ span.old-price {
+	 color: #e74c3c;
+	 text-decoration: line-through;
+	 margin-right: 15px;
+}
+ span.new-price {
+	 padding: 5px 5px;
+	 background: #27ae60;
+	 color: #fff;
+	 font-weight: 700;
+}
+ h1 {
+	 font-size: 42px;
+	 text-align: center;
+	 padding-bottom: 4px;
+	 margin-bottom: 10px;
+	 background: #e74c3c;
+	 color: #fff;
+	 padding: 10px 0px;
+}
+ span.new {
+	 background: #2980b9;
+	 color: #fff;
+	 font-size: 14px;
+	 padding: 5px;
+	 margin-left: 10px;
+}
+ 
